@@ -1,0 +1,20 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "backend for todo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "3FK",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.1",
+    "uuid": "^7.0.2"
+  }
+}
